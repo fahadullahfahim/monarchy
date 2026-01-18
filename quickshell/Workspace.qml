@@ -8,10 +8,11 @@ Item{
         Rectangle{
             id: box
             height:20
-            width: 50
+            width: 5+txt.width
+            color: "lightsteelblue"
             Text{
                 id: txt 
-                text: "box.name"
+                text: modelData.name+" focused "+modelData.focused
                 font.pointSize:8
             }
         }
@@ -21,5 +22,6 @@ Item{
         delegate: myDelegate
         anchors.fill: parent
         orientation: ListView.Horizontal
+        spacing: 8
     }
 }
