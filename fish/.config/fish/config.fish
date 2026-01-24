@@ -5,6 +5,8 @@ if status is-interactive
     alias gcm='git commit -m'
     alias gst='git status'
     alias gp='git push'
+    alias update='sudo pacman -Sy'
+    alias upgrade='sudo pacman -S'
     alias ls='ls --color=auto'
     alias ll='ls -lh --color=auto'
     alias la='ls -A --color=auto'
