@@ -24,7 +24,9 @@ set packages \
     hyprwayland-scanner \
     aquamarine \
     hyprgraphics \
-    hyprland-guiutils
+    hyprland-guiutils\
+    pipewire\
+    wireplumber
 
 
 sudo pacman -Sy
