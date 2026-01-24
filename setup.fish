@@ -40,7 +40,9 @@ set packages \
     wireplumber\
     ttf-noto-nerd\
     grim\
-    slurp
+    slurp\
+    uwsm\
+    libnewt
 
 sudo pacman -Sy
 
