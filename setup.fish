@@ -26,7 +26,9 @@ set packages \
     hyprgraphics \
     hyprland-guiutils\
     pipewire\
-    wireplumber
+    wireplumber\
+    ttf-noto-nerd\
+    yay
 
 
 sudo pacman -Sy
@@ -38,6 +40,10 @@ for pkg in $packages
     else
         echo ">> Warning: '$pkg' not in the official repositories."
     end
+end
+if command -v yay > /dev/null
+    echo "Installing ashell from AUR..."
+    yay -S --needed --noconfirm ashell
 end
 
 echo "Complete"
