@@ -1,4 +1,15 @@
 #!/usr/bin/fish
+
+if not command -v yay > /dev/null
+sudo pacman -S --needed --noconfirm base-devel git
+set -l temp_dir (mktemp -d)
+git clone https://aur.archlinux.org/yay.git $temp_dir
+pushd $temp_dir
+makepkg -si --noconfirm
+popd
+rm -rf $temp_dir
+end
+
 set packages \
     hyprland\
     kitty\
@@ -15,12 +26,12 @@ set packages \
     hyprpolkitagent \
     hyprland-qt-support \
     hyprqt6engine \
-    hyprpwcenter \
-    hyprshutdown \
     hyprtoolkit \
     hyprcursor \
     hyprutils \
+    hyprpwcenter\
     hyprlang \
+    hyprshutdown\
     hyprwayland-scanner \
     aquamarine \
     hyprgraphics \
@@ -28,8 +39,8 @@ set packages \
     pipewire\
     wireplumber\
     ttf-noto-nerd\
-    yay
-
+    grim\
+    slurp
 
 sudo pacman -Sy
 
@@ -39,11 +50,9 @@ for pkg in $packages
         sudo pacman -S --needed --noconfirm $pkg
     else
         echo ">> Warning: '$pkg' not in the official repositories."
-    end
 end
-if command -v yay > /dev/null
-    echo "Installing ashell from AUR..."
-    yay -S --needed --noconfirm ashell
 end
+
+yay -S --needed --noconfirm ashell
 
 echo "Complete"
