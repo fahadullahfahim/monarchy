@@ -42,7 +42,8 @@ set packages \
     grim\
     slurp\
     uwsm\
-    libnewt
+    libnewt\
+    stow
 
 sudo pacman -Sy
 
@@ -56,5 +57,6 @@ end
 end
 
 yay -S --needed --noconfirm ashell
-
+cd ~/monarchy
+stow */
 echo "Complete"
