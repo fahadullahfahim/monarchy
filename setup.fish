@@ -41,8 +41,6 @@ set packages \
     ttf-noto-nerd\
     grim\
     slurp\
-    uwsm\
-    libnewt\
     stow
 
 sudo pacman -Sy
