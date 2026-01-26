@@ -38,6 +38,7 @@ set packages \
     hyprland-guiutils\
     pipewire\
     wireplumber\
+    luajit\
     ttf-noto-nerd\
     grim\
     slurp\
