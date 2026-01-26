@@ -17,7 +17,7 @@ set packages \
     nautilus\
     hyprpaper \
     hyprpicker \
-    hyprlauncher \
+    wofi \
     hypridle \
     hyprlock \
     xdg-desktop-portal-hyprland \
