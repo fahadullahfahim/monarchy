@@ -58,4 +58,5 @@ end
 yay -S --needed --noconfirm ashell
 cd ~/monarchy
 stow */
+chmod +x /home/fahadullah/monarchy/scripts/sendScreenshot.sh
 echo "Complete"
