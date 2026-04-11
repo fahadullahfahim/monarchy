@@ -7,6 +7,7 @@ if status is-interactive
     alias gp='git push'
     alias update='sudo pacman -Sy'
     alias upgrade='sudo pacman -S'
+    alias slep= 'systemctl suspend'
     alias ls='ls --color=auto'
     alias ll='ls -lh --color=auto'
     alias la='ls -A --color=auto'
