@@ -1,0 +1,16 @@
+[bar]
+scale = 0.8
+background-opacity = 30
+button-variant = "block-prefix"
+button-bg-opacity = 50
+[[bar.layout]]
+left = ["hyprland-workspaces"]
+center =["window-title"]
+right = ["media","netstat","cpu", "ram","storage","separator","dashboard","clock","notifications","systray"]
+[modules.clock]
+format = "%H:%M"
+[styling]
+theme-provider = "pywal"
+pywal-light = true
+pywal-contrast = 21
+pywal-saturation = 1

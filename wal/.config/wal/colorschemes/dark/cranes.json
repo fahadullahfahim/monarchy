@@ -1,0 +1,28 @@
+{
+    "checksum": "24423c9b9d5cc9bcc2f48c84b51cbc29",
+    "wallpaper": "/home/fahadullah/monarchy/bg/cranes.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#251e0f",
+        "foreground": "#c8c6c3",
+        "cursor": "#c8c6c3"
+    },
+    "colors": {
+        "color0": "#251e0f",
+        "color1": "#897B63",
+        "color2": "#7D8971",
+        "color3": "#A28E69",
+        "color4": "#C29D51",
+        "color5": "#A19E86",
+        "color6": "#B6A78C",
+        "color7": "#9c9992",
+        "color8": "#746d5f",
+        "color9": "#c1a36e",
+        "color10": "#9dc475",
+        "color11": "#c8ae7e",
+        "color12": "#c9b283",
+        "color13": "#cec78d",
+        "color14": "#d4c09b",
+        "color15": "#c8c6c3"
+    }
+}
