@@ -8,7 +8,7 @@ left = ["hyprland-workspaces"]
 center =["window-title"]
 right = ["media","netstat","cpu", "ram","storage","separator","dashboard","clock","notifications","systray"]
 [modules.clock]
-format = "%H:%M"
+format = "%a %b %d %I:%M %p"
 [styling]
 theme-provider = "pywal"
 pywal-light = true
